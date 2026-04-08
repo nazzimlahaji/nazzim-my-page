@@ -1,0 +1,16 @@
+{
+  "name": "Mohd Nazzim Lahaji — Software Engineer Portfolio",
+  "short_name": "Nazzim Portfolio",
+  "description": "Portfolio of Mohd Nazzim Bin Lahaji, a Software Engineer specializing in Go, React, TypeScript, Docker, and PostgreSQL.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#1565c0",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48 192x192 512x512",
+      "type": "image/x-icon"
+    }
+  ]
+}
