@@ -1,24 +1,23 @@
-import { Link } from "react-router-dom";
-import {
-  Box,
-  Container,
-  Typography,
-  Button,
-  Chip,
-  Stack,
-  Divider,
-  Avatar,
-} from "@mui/material";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import EmailIcon from "@mui/icons-material/Email";
-import PhoneIcon from "@mui/icons-material/Phone";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import HomeIcon from "@mui/icons-material/Home";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
-import { useLanguage } from "../context/LanguageContext";
-import SEOHead from "../components/SEOHead";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import {
+  Avatar,
+  Box,
+  Button,
+  Chip,
+  Container,
+  Divider,
+  Stack,
+  Typography,
+} from "@mui/material";
+import { Link } from "react-router-dom";
 import profilePic from "../assets/profile_pic.jpg";
+import SEOHead from "../components/SEOHead";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function HomePage() {
   const { t } = useLanguage();
