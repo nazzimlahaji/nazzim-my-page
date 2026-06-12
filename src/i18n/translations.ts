@@ -94,6 +94,7 @@ export interface Translations {
     proficiencyLevels: string;
     additionalTitle: string;
     levels: {
+      advanced: string;
       intermediate: string;
       basic: string;
       beginner: string;
@@ -237,9 +238,10 @@ const en: Translations = {
   skills: {
     pageTitle: "Skills & Technologies",
     pageSubtitle: "Languages, tools, and platforms I work with",
-    proficiencyLevels: "← proficiency levels",
+    proficiencyLevels: "← Proficiency Levels",
     additionalTitle: "Additional Technologies",
     levels: {
+      advanced: "Advanced",
       intermediate: "Intermediate",
       basic: "Basic",
       beginner: "Beginner",
@@ -397,9 +399,10 @@ const ms: Translations = {
   skills: {
     pageTitle: "Kemahiran & Teknologi",
     pageSubtitle: "Bahasa, alatan, dan platform yang saya gunakan",
-    proficiencyLevels: "← tahap kecekapan",
+    proficiencyLevels: "← Tahap Kecekapan",
     additionalTitle: "Teknologi Tambahan",
     levels: {
+      advanced: "Mahir",
       intermediate: "Pertengahan",
       basic: "Asas",
       beginner: "Permulaan",
