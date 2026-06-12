@@ -62,10 +62,6 @@ export default function ExperiencePage() {
     },
   ];
 
-  const featuredTags = Array.from(
-    new Set(JOBS.flatMap((job) => job.tags)),
-  ).slice(0, 8);
-
   return (
     <Box
       sx={{
