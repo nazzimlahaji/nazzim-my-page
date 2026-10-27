@@ -8,7 +8,7 @@ Project guidance for AI agents working in this repo. `CLAUDE.md` imports this fi
 
 | Stack | Version |
 | ----- | ------- |
-| Node | 24.14.1 (`.nvmrc`) |
+| Node | 24.22.1 (`.nvmrc`) |
 | Package manager | pnpm |
 | Bundler | Vite 8 + React Compiler |
 | Framework | React 19 + TypeScript (strict) |
