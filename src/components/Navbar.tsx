@@ -19,8 +19,8 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
-import { useColorMode } from "../context/ThemeContext";
-import { useLanguage } from "../context/LanguageContext";
+import { useColorMode } from "../hooks/useColorMode";
+import { useLanguage } from "../hooks/useLanguage";
 
 export default function Navbar() {
   const location = useLocation();

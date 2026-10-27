@@ -1,27 +1,5 @@
-import {
-  createContext,
-  useContext,
-  useState,
-  useMemo,
-  useEffect,
-  type ReactNode,
-} from "react";
-
-type ColorMode = "light" | "dark";
-
-interface ThemeContextValue {
-  mode: ColorMode;
-  toggleMode: () => void;
-}
-
-const ThemeCtx = createContext<ThemeContextValue>({
-  mode: "light",
-  toggleMode: () => {},
-});
-
-export function useColorMode() {
-  return useContext(ThemeCtx);
-}
+import { useState, useMemo, useEffect, type ReactNode } from "react";
+import { ThemeCtx, type ColorMode, type ThemeContextValue } from "./themeCtx";
 
 function getInitialMode(): ColorMode {
   try {

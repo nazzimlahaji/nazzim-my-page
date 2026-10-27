@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../hooks/useLanguage";
 
 const SITE_URL = "https://nazzim.my";
 

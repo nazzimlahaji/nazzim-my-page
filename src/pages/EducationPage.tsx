@@ -15,7 +15,7 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import ArticleIcon from "@mui/icons-material/Article";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../hooks/useLanguage";
 import SEOHead from "../components/SEOHead";
 
 const PUBLICATIONS = [

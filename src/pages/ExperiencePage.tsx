@@ -14,7 +14,7 @@ import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import CodeIcon from "@mui/icons-material/Code";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../hooks/useLanguage";
 import SEOHead from "../components/SEOHead";
 
 export default function ExperiencePage() {

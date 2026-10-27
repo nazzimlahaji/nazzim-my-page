@@ -6,7 +6,7 @@ import ExperiencePage from "./pages/ExperiencePage";
 import EducationPage from "./pages/EducationPage";
 import SkillsPage from "./pages/SkillsPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import { useLanguage } from "./context/LanguageContext";
+import { useLanguage } from "./hooks/useLanguage";
 
 // Footer shown on every page
 function Footer() {

@@ -1,28 +1,6 @@
-import {
-  createContext,
-  useContext,
-  useState,
-  useMemo,
-  useEffect,
-  type ReactNode,
-} from "react";
-import { type Language, type Translations, translations } from "../i18n/translations";
-
-interface LanguageContextValue {
-  lang: Language;
-  t: Translations;
-  toggleLang: () => void;
-}
-
-const LanguageCtx = createContext<LanguageContextValue>({
-  lang: "en",
-  t: translations.en,
-  toggleLang: () => {},
-});
-
-export function useLanguage() {
-  return useContext(LanguageCtx);
-}
+import { useState, useMemo, useEffect, type ReactNode } from "react";
+import { type Language, translations } from "../i18n/translations";
+import { LanguageCtx, type LanguageContextValue } from "./languageCtx";
 
 function getInitialLang(): Language {
   try {

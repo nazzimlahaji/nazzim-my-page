@@ -20,7 +20,7 @@ import {
 import { Link } from "react-router-dom";
 import profilePic from "../assets/profile_pic.jpg";
 import SEOHead from "../components/SEOHead";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../hooks/useLanguage";
 
 export default function HomePage() {
   const { t } = useLanguage();

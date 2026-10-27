@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Box, Typography, Button } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import SEOHead from "../components/SEOHead";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../hooks/useLanguage";
 
 export default function NotFoundPage() {
   const { t } = useLanguage();

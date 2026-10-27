@@ -11,7 +11,7 @@ import BuildIcon from "@mui/icons-material/Build";
 import CodeIcon from "@mui/icons-material/Code";
 import StorageIcon from "@mui/icons-material/Storage";
 import HandymanIcon from "@mui/icons-material/Handyman";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../hooks/useLanguage";
 import SEOHead from "../components/SEOHead";
 
 const ADDITIONAL: string[] = [
